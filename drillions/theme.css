@@ -1,0 +1,5 @@
+/* Drillions: Farbschema auf Basis der gemeinsamen style.css */
+:root{--bg:#0e1626;--panel:#16233a;--line:#3a5682;--text:#f2f6ff;--dim:#9fb0c8;--amber:#ffb627}
+h1{color:#ffb627}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px;margin:20px 0}
+.shots img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}
